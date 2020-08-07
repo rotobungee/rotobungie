@@ -36,7 +36,7 @@
 			<nav class="navbar navbar-dark navbar-fixed"><!-- add 'navbar-dark/navbar-transparent/navbar-transparent-dark' -->
 				<div class="container">
 					<a class="navbar-brand" href="../index.html#home">
-						<img src="../images/RotoLogoWhite.svg" style="width:400px;height:200px;" alt="">
+						<img src="../images/RotoLogoWhite.svg" style="width:200px;height:100px;" alt="">
 					</a>
 					<ul class="nav onepage-nav">
 						<li class="nav-item">
@@ -62,7 +62,7 @@
 
 		<div class="section bg-dark-lightest">
 			<div class="container">
-				<div class="row col-spacing-50">
+				<div class="row col-spacing-50 margin-bottom-20 margin-top-20">
 					<div class="col-12 col-lg-10">
 						<div class="owl-carousel product-carousel owl-dots-overlay-left">
 							<div data-hash="1">
@@ -94,11 +94,9 @@
 							<h5 class="font-weight-light"><del>$24.99</del><ins>$19.99</ins></h5>
 						</div>
 						<p>Experience a cordless feeling that lets you perform consistently</p>
-						<div class="product-quantity margin-top-30">
-					
-
-							<div id='product-component-1596160017661'></div>
-								<script type="text/javascript">
+						<div class="product-quantity margin-top-30 ">
+							<div id='product-component-1596773849575'></div>
+							<script type="text/javascript">
 /*<![CDATA[*/
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -126,7 +124,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '2208132989057',
-        node: document.getElementById('product-component-1596160017661'),
+        node: document.getElementById('product-component-1596773849575'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -136,7 +134,8 @@
           "max-width": "calc(25% - 20px)",
           "margin-left": "20px",
           "margin-bottom": "50px"
-        }
+        },
+        "text-align": "left"
       },
       "button": {
         ":hover": {
@@ -212,6 +211,54 @@
           "background-color": "#d42a2a"
         },
         "border-radius": "5px"
+      },
+      "title": {
+        "color": "#ffffff"
+      },
+      "header": {
+        "color": "#ffffff"
+      },
+      "lineItems": {
+        "color": "#ffffff"
+      },
+      "subtotalText": {
+        "color": "#ffffff"
+      },
+      "subtotal": {
+        "color": "#ffffff"
+      },
+      "notice": {
+        "color": "#ffffff"
+      },
+      "currency": {
+        "color": "#ffffff"
+      },
+      "close": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        }
+      },
+      "empty": {
+        "color": "#ffffff"
+      },
+      "noteDescription": {
+        "color": "#ffffff"
+      },
+      "discountText": {
+        "color": "#ffffff"
+      },
+      "discountIcon": {
+        "fill": "#ffffff"
+      },
+      "discountAmount": {
+        "color": "#ffffff"
+      },
+      "cart": {
+        "background-color": "#274756"
+      },
+      "footer": {
+        "background-color": "#274756"
       }
     },
     "text": {
@@ -232,6 +279,43 @@
         }
       }
     }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#ffffff"
+      },
+      "title": {
+        "color": "#ffffff"
+      },
+      "price": {
+        "color": "#ffffff"
+      },
+      "fullPrice": {
+        "color": "#ffffff"
+      },
+      "discount": {
+        "color": "#ffffff"
+      },
+      "discountIcon": {
+        "fill": "#ffffff"
+      },
+      "quantity": {
+        "color": "#ffffff"
+      },
+      "quantityIncrement": {
+        "color": "#ffffff",
+        "border-color": "#ffffff"
+      },
+      "quantityDecrement": {
+        "color": "#ffffff",
+        "border-color": "#ffffff"
+      },
+      "quantityInput": {
+        "color": "#ffffff",
+        "border-color": "#ffffff"
+      }
+    }
   }
 },
       });
@@ -240,7 +324,6 @@
 })();
 /*]]>*/
 </script>
-							</div>
 						</div>
 	
 				</div><!-- end row -->
