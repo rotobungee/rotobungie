@@ -9236,7 +9236,7 @@ body.loaded:after {
 .section-fullscreen {
   width: 100%;
   height: 100vh;
-  background-size:auto;
+  background-size:cover;
 }
 
 .section-fullscreen div[class^='bg-black'], .section-fullscreen div[class*=' bg-black'],
