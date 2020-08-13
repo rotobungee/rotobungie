@@ -9233,6 +9233,10 @@ body.loaded:after {
   padding: 0;
 }
 
+.splash {
+  max-width: 100%;
+  height: auto;
+}
 .section-fullscreen {
   width: 100%;
   height: 100vh;
